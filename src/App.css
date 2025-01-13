@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f9fa;
+  }
+  
+  .button-container {
+    display: inline-block;
+  }
+  
+  .promotion-button {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    border: 1px solid #e74c3c; /* Red border */
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #e74c3c; /* Red text color */
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .promotion-button .icon {
+    font-size: 16px;
+    margin-right: 8px;
+  }
+  
+  .promotion-button .text {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .promotion-button:hover {
+    background-color: #e74c3c;
+    color: #ffffff; /* White text on hover */
+  }
+  
+  .promotion-button:hover .icon {
+    color: #ffffff; /* White icon on hover */
+  }
+  
