@@ -33,7 +33,7 @@ export default function Home() {
     <h1>welcome</h1>
    <div className="flex flex-row"> <label htmlFor="">Enter message</label>
     <input type="text" />
-    <button type="submit" onClick={handleSubmit} className="text-green-500 bg-cyan-800" >send</button></div>
+    <button type="submit" onClick={handleSubmit} className="text-green-500 bg-cyan-800" >sendd</button></div>
     
     </>
 
