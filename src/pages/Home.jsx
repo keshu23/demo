@@ -1,41 +1,26 @@
-// // import React from 'react';
+// import React from 'react';
+// import { useState, useEffect } from "react";
+import "../Preloader.css";
+// import Preloader from "./Preloader";
 
-// export default function Home() {
-//   return (
-//     <>
-//       <form>
-//         <div className="mb-3">
-//           <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
-//           <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
-//           <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
-//         </div>
-//         <div className="mb-3">
-//           <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
-//           <input type="password" className="form-control" id="exampleInputPassword1" />
-//         </div>
-//         <div className="mb-3 form-check">
-//           <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-//           <label className="form-check-label" htmlFor="exampleCheck1">Check me out</label>
-//         </div>
-//         <button type="submit" className="btn btn-primary">Submit</button>
-//       </form>
-//     </>
-//   );
-// }
 
-const handleSubmit = ()=>{
-    console.log('submitted');
-}
 
 export default function Home() {
+
   return (
     <>
-    <h1>welcome</h1>
-   <div className="flex flex-row"> <label htmlFor="">Enter message</label>
-    <input type="text" />
-    <button type="submit" onClick={handleSubmit} className="text-green-500 bg-cyan-800" >sendd</button></div>
-    
+    <div id="content">
+          <h1>Page Loaded!</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto expedita
+            perspiciatis id explicabo ut excepturi repudiandae iure optio similique
+            facilis recusandae ratione pariatur quod consectetur doloribus laboriosam
+            esse obcaecati eius velit veniam reprehenderit quam, necessitatibus
+            ducimus quidem. Neque deserunt quis ex cupiditate itaque, dolorem
+            consectetur ratione, accusantium quibusdam modi ea at sint iste quod
+            aspernatur?
+          </p>
+        </div>
     </>
-
-  )
+  );
 }
