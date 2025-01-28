@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f8f9fa;
+    background-color: #859db6;
   }
   
   .button-container {
@@ -18,7 +18,7 @@ body {
     padding: 8px 16px;
     border: 1px solid #e74c3c; /* Red border */
     border-radius: 4px;
-    background-color: #ffffff;
+    background-color: #ffffff;  
     color: #e74c3c; /* Red text color */
     cursor: pointer;
     transition: all 0.3s ease;
